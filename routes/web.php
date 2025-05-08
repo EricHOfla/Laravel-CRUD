@@ -20,3 +20,8 @@ Route::post('/formsubmit', [RegisterController::class,
 
  Route::post('/',[ContactController::class,
   'ContactStore'])->name('contact.save');
+
+  Route::get('/image', [HomeController::class,  'ShowImageForm'])->name('image.show');
+  Route::post('/image', [HomeController::class, 'ImageUpload'])->name('image.store');
+ 
+  Route::get('/image/data', [HomeController::class, 'RetriveImage'])->name('retrive.image');

@@ -14,6 +14,9 @@
             <a href="{{Route('aboutpage')}}" class="btn btn-primary">About Us</a>
             <a href="{{Route('contactus')}}" class="btn btn-secondary">Contact Us</a>
             <a href="{{Route('service')}}" class="btn btn-success">Our Service</a>
+            <a href="{{Route('image.show')}}" class="btn btn-danger">Upload Image</a>
+            <a href="{{Route('retrive.image')}}" class="btn btn-primary">View Image</a>
+
         </div>
     </div>
     
